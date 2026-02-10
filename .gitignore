@@ -1,0 +1,18 @@
+# 하이퍼레저 패브릭 자동 생성 아티팩트 (올리지 않음)
+channel-artifacts/
+crypto-config/
+fabric-ca/
+*.block
+*.tar.gz
+
+# 바이너리 (다른 컴퓨터에서는 다시 받아야 함)
+bin/
+
+# 체인코드 빌드 관련 (다시 생성 가능)
+chaincode/vendor/
+chaincode/sto_contract
+
+# 시스템 파일
+.DS_Store
+.idea/
+.vscode/

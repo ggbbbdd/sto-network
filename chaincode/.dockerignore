@@ -1,0 +1,4 @@
+.git
+.gitignore
+*.tar.gz
+vendor/github.com/hyperledger/fabric/core/chaincode/integration
